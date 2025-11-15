@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom right, #ffeef5, #f7d8e8);
+        color: #333;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+      }
+
+      table {
+        width: 90%;
+        margin: 20px auto;
+        border-collapse: collapse;
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      th,
+      td {
+        padding: 15px;
+        border: 10px solid #e4b9c9;
+        vertical-align: top;
+      }
+
+      th {
+        background: #f5c9d8;
+        font-weight: bold;
+      }
+
+      tbody tr:nth-child(even) {
+        background: #fff7fa;
+      }
+
+      .footer-link {
+        margin-top: auto;
+        text-align: left;
+        padding: 25px 0;
+      }
+
+      .footer-link a {
+        text-decoration: none;
+        font-size: 18px;
+        font-weight: bold;
+        color: #b84c72;
+      }
+
+      .footer-link a:hover {
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Projects: STAR methodology</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Situation</th>
+          <th>Task</th>
+          <th>Action</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><b>Integration with SCADA</b></td>
+          <td>Old TLS version not upgradeable</td>
+          <td>Converted logs into a Windows application</td>
+          <td>Enabled collection of data from the legacy SCADA system</td>
+        </tr>
+
+        <tr>
+          <td><b>Organize HA cluster</b></td>
+          <td>
+            Different server models; Windows supports only one log collector
+          </td>
+          <td>
+            Deployed a new all-in-one system using XML agents, parsed logs, and
+            collected data via two protocols
+          </td>
+          <td>Built a stable HA cluster</td>
+        </tr>
+
+        <tr>
+          <td><b>Monitoring EDR agents</b></td>
+          <td>Engineers reinstall OS on ATMs and forget to reinstall EDR</td>
+          <td>
+            Wrote a Python script to compare EDR and Active Directory data and
+            send notifications
+          </td>
+          <td>Full visibility, improved compliance</td>
+        </tr>
+      </tbody>
+    </table>
+    <footer class="footer-link">
+      <a href="main.html">← Back to main page</a>
+    </footer>
+  </body>
+</html>

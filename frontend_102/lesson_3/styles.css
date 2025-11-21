@@ -1,0 +1,21 @@
+.box_color {
+  background-color: aqua;
+  padding: 5px;
+}
+
+.box {
+  margin: 10px auto;
+  padding: 20px;
+  border: 5px solid yellow;
+  width: 400px;
+  box-sizing: border-box;
+  background-color: lightpink;
+}
+
+body,
+h1 {
+  margin: 10px auto;
+  padding: 1px;
+  text-align: center;
+  border: 5px solid palevioletred;
+}

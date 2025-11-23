@@ -1,0 +1,45 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: antiquewhite;
+}
+
+h1 {
+  text-align: center;
+}
+
+section {
+  margin: 30px;
+}
+
+div {
+  margin: 10px;
+  padding: 5px;
+  text-align: justify;
+  line-height: 1.5;
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.work {
+  width: 400px;
+  background-color: cadetblue;
+  margin-left: 100px;
+}
+
+.books {
+  width: 200px;
+  background-color: #f6ff73;
+}
+
+.family {
+  width: 450px;
+  background-color: rgb(243, 121, 241);
+  margin-left: 200px;
+}
+
+.education {
+  width: 300px;
+  background-color: hsl(200, 91%, 65%);
+  margin-left: 50px;
+}

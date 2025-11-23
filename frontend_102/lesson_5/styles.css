@@ -1,0 +1,31 @@
+h1 {
+  font-family: "Science Gothic", sans-serif;
+  font-size: 24px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  font-weight: 300;
+  background-color: #ebddd0;
+  color: rgba(48, 32, 23, 0.806);
+  border-left: 3px solid;
+  text-align: justify;
+  padding: 20px;
+  font-size: 18px;
+}
+
+li {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.6;
+  text-align: left;
+  font-style: oblique;
+  font-weight: 300;
+  padding: 10px;
+}
+
+ol {
+  border: 2px burlywood solid;
+  border-radius: 10%;
+  margin-top: 30px;
+}

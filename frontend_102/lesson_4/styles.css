@@ -1,0 +1,23 @@
+.bg-size {
+  height: 800;
+  width: 800;
+  margin: 20;
+  border: rgb(165, 84, 190) 10px solid;
+  background-size: contain;
+}
+
+.bg-img {
+  background-image: url(./more.jpg);
+}
+
+.h {
+  color: #bfafa6c3;
+
+  background-color: hsl(307, 29%, 30%);
+}
+
+p {
+  color: antiquewhite;
+  background-image: url(./palm.jpg);
+  background-size: cover;
+}

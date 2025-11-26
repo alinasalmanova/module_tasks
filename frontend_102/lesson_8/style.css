@@ -1,0 +1,29 @@
+.main {
+  background-color: darkgray;
+  width: 500px;
+  height: 600px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+}
+
+.one {
+  background-color: darkcyan;
+}
+
+.two {
+  background-color: darksalmon;
+  flex-grow: 1;
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.three {
+  background-color: gold;
+  flex-grow: 2;
+}

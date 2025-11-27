@@ -1,0 +1,28 @@
+.grid-main {
+  height: 900px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  grid-template-rows: 100px auto 100px;
+  gap: 20px;
+}
+
+header {
+  background-color: lightgreen;
+  grid-column: 1 / -1;
+}
+
+aside {
+  background-color: lightpink;
+}
+
+main {
+  background-color: lightgoldenrodyellow;
+}
+
+footer {
+  background-color: lightsalmon;
+  grid-column: 1 / -1;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculate</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="bg.css" />
+  </head>
+  <body>
+    <div class="grid_container main">
+      <div class="element">1</div>
+      <div class="element">2</div>
+      <div class="element">3</div>
+      <div class="element">4</div>
+      <div class="element">5</div>
+      <div class="element">6</div>
+      <div class="element">7</div>
+      <div class="element">8</div>
+      <div class="element">9</div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus cumque
+      deserunt nam optio id amet ullam? Quaerat tempora commodi facere possimus,
+      hic distinctio nobis iste iusto voluptates, dolorum ipsam eum.
+    </p>
+    <button id="dark">Change theme</button>
+    <script>
+      const btn = document.getElementById("dark");
+      btn.addEventListener("click", () => {
+        document.body.classList.toggle("dark");
+      });
+    </script>
+  </body>
+</html>

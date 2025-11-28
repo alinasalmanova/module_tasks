@@ -1,0 +1,71 @@
+:root {
+  --primary-color: rgb(245, 244, 184);
+  --secondary-color: rgb(210, 183, 236);
+}
+
+body {
+  background-color: var(--primary-color);
+  transition: background-color 0.3s ease;
+}
+
+body.dark {
+  background-color: var(--secondary-color);
+}
+
+.main {
+  background-color: lightgrey;
+}
+
+.element {
+  background-color: rgb(118, 188, 165);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+button {
+  background-color: coral;
+  margin: 20px;
+  padding: 20px 30px;
+  border: rgb(243, 112, 64) solid;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+  animation: pulse 1s ease-in-out infinite;
+}
+
+button:hover {
+  background-color: rgb(119, 215, 183);
+  border: darkcyan, dashed;
+}
+
+button:active {
+  color: azure;
+  font-weight: bolder;
+}
+
+button::after {
+  content: "~";
+  padding: 5px;
+}
+
+button::before {
+  content: "@";
+  padding: 5px;
+}
+
+p::first-line {
+  color: blue;
+  font-style: italic;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

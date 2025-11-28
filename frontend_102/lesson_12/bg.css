@@ -1,0 +1,44 @@
+.main {
+  background-color: lightgrey;
+}
+
+.element {
+  background-color: rgb(161, 237, 212);
+  font-size: 50px;
+  font-weight: bold;
+}
+
+button {
+  background-color: coral;
+  margin: 20px;
+  padding: 20px 30px;
+  border: rgb(243, 112, 64) solid;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: rgb(119, 215, 183);
+  border: darkcyan, dashed;
+}
+
+button:active {
+  color: azure;
+  font-weight: bolder;
+}
+
+button::after {
+  content: "~";
+  padding: 5px;
+}
+
+button::before {
+  content: "@";
+  padding: 5px;
+}
+
+p::first-line {
+  color: blue;
+  font-style: italic;
+}

@@ -1,0 +1,86 @@
+body {
+  font-family: "Raleway", "Open Sans", sans-serif;
+  background-color: #fae9e4;
+  margin: 0;
+  padding: 0;
+  color: #2c2c2c;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 35px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #cbd4f4;
+  padding: 18px;
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-size: 15px;
+  line-height: 1.6;
+  font-style: italic;
+}
+
+.card h3 {
+  margin: 0;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.music video {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+.colors-list {
+  display: flex;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.color-item {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  border: 1px solid #999;
+}
+
+.movies-wrapper {
+  display: flex;
+  gap: 12px;
+}
+
+.movies-wrapper img {
+  width: 70px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.books img {
+  width: 100%;
+  height: auto; /* сохраняем пропорции */
+  border-radius: 8px;
+}
+
+.seasons::before {
+  content: "🍂 ❄️";
+  display: block;
+  font-size: 28px;
+  margin-bottom: 6px;
+}
